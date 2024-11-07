@@ -1,0 +1,197 @@
+.row1
+{
+  background:url('https://s-media-cache-ak0.pinimg.com/736x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3.jpg');
+
+}
+
+
+.pic
+{
+  background-image: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/aboutpage+(3).jpg');
+  background-size: cover;
+  margin: 30px;
+  box-shadow: 6px 6px 7px #888888;
+  width:250px;
+  height:250px;
+  position: relative;
+  overflow: hidden;
+  margin-top:100px;
+  margin-left:135px;
+}
+
+
+.pic:hover , .box1:hover , .box2:hover , .social1:hover , .social2:hover , .social3:hover 
+{
+  box-shadow: 3px 3px 7px #888888;
+  cursor:pointer;
+}
+
+.box1
+{
+  background-image: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/easy.jpg');
+  background-size: cover;
+  box-shadow: 6px 6px 7px #888888;
+  width:100px;
+  height:100px;
+  position: relative;
+  overflow: hidden;
+  margin-top:-124px;
+  margin-left:16px;
+  padding: auto;
+}
+
+
+.box2
+{
+  background-image: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/aboutusrobot.png');
+  background-size: cover;
+  box-shadow: 6px 6px 7px #888888;
+  position: relative;
+  overflow: hidden;
+  width:194px;
+  height:99px;
+  margin-top:14px;
+  margin-left:78px;
+}
+
+.aboutbox{
+  margin-left: 10px;
+   margin-top: 100px;
+margin-right: 20px;
+  }
+
+@media(max-width:576px){
+
+  .content
+  {
+    height:80%;
+    width: 690px;
+  margin-right: 400px;
+  
+    }
+    
+.aboutbox{
+  
+  margin-left: 0px;
+   margin-top: 50px;
+margin-right: 50px;
+  }
+}
+  
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2
+{
+  font-family: 'Dancing Script';
+}
+
+.contentHead
+{
+  padding-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:40px;
+  font-weight:500;
+  text-decoration:underline;
+  margin-top: 10%;
+  color: black;
+}
+.aboutpara {
+    font-family: Calibiri;
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .ribbonHead {
+  width: 350px;
+  background-color: #ddd9d9;
+  padding: 20px 30px 30px 50px;
+  
+  
+  color: #000000;
+
+}
+
+
+.h11 {
+  color: #fff;
+  position: relative;
+  background-color: #2e3268;
+  margin: 0px -70px 20px -30px;
+  padding: 24px 0px 16px 30px;
+  width: 350px;
+  font-size: larger;
+  
+}
+
+
+
+.aboutImg {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.ribbonHead p {
+  text-align: justify;
+}
+
+.easyImag {
+  width: 100%;
+}
+
+
+@media (max-width: 576px) {
+.contentHead {
+  font-size: 24px;
+}
+
+.ribbonHead h1 {
+  font-size: 20px;
+}
+
+.easyImag {
+  width: 110%;
+}
+  
+.ribbonHead {
+  width: 350px;
+  margin-top: 20px;
+  background-color: #ddd9d9;
+  
+  padding: 20px 30px 30px 10px;
+  
+  
+  color: #000000;
+
+}
+
+}
+
+
+
+.pattern{
+  color: white;
+  font-size: larger;
+  background-image: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/pattern.webp');
+}
+
+
+
+.layer3{
+  height: 100px;
+  padding-left: 70%;
+}
+.layer4{
+  padding-top: 0%;
+  height: 100px;
+}
+
+.tilt{
+  display: flex;
+  justify-content: space-evenly;
+}

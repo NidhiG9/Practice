@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+    /* Adjust form layout for mobile */
+    .form-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .form-container div {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    /* Adjust input and textarea fields */
+    input, textarea {
+      width: 100%;
+    }
+  
+    /* Adjust button alignment */
+    .btn {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    /* Adjust Profiles Hosted section */
+    .profiles-hosted {
+      margin: 20px 0;
+    }
+  
+    /* Adjust list items */
+    ul li {
+      margin-left: 0;
+    }
+  
+    /* Adjust modal button alignment */
+    .modal-footer button {
+      width: 48%;
+    }
+  }
+  

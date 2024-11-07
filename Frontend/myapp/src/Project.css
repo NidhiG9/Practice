@@ -1,0 +1,86 @@
+
+.imgTxt {
+  background-image: url("https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/project3.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+
+.imgtxtBack {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 12%;
+  padding: 30px;
+  background-color: white;
+}
+
+
+
+.cardmain {
+  text-align: center;
+}
+
+.increasing_Numbers {
+  font-size: xx-large;
+  font-weight: 600;
+  color: rgb(221, 4, 4);
+}
+
+
+
+
+.siteAbout{
+  margin: 20px;
+  color: black;
+  
+}
+.button{
+  cursor: pointer;
+  height: 50px;
+  font-size: 15px;
+}
+
+.mainDiv{
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+  background-color: rgb(236, 233, 233);
+  font-size: 16px;
+}
+
+
+.telanaganaImg {
+  height: 200px;
+  width: 200px;
+}
+
+
+.slideImage {
+  height: 400px;
+  width: 400px;
+ 
+}
+.bg-cyan {
+  background-color: rgb(12, 29, 36);
+}
+.states {
+  text-align: start;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.textState{
+  font-family: calibiri;
+  font-weight: 600;
+  font-size: large;
+  background-color: rgb(206, 220, 226);
+  
+}
+.stateHeading{
+  text-align: center;
+  font-size: 35px;
+  font-family: calibiri;
+  text-decoration: underline;
+  font-weight: 700;
+}

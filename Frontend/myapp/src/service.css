@@ -1,0 +1,327 @@
+.serviceBackground{
+  background: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/background.jpg');
+  background-size: cover;
+  padding: 20px;
+ 
+}
+@media(max-width:576px){
+  .serviceBackground{
+    padding: 10px;
+     }
+ .top{
+  margin-left: 50px;
+  
+ }
+ 
+    }
+#legend {
+  float: right;
+  color: #ccc;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.top {
+  border-color: #0f0f0f;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+.row .bottom {
+  font-size: 3vh;
+}
+.bullet {
+  background-image: url("https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/hyderabad.png");
+  background-size: cover;
+  border-radius: 100%;
+  height: 20vh;
+  width: 20vh;
+  margin-left: 12px;
+}
+
+.bullet1 {
+  background-image: url("https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/oprMaintainence.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  height: 20vh;
+  width: 20vh;
+  margin-left: 12px;
+}.bullet3 {
+  background-image: url("https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/EPC.webp");
+  background-size: cover;
+  border-radius: 100%;
+  height: 20vh;
+  width: 20vh;
+  margin-left: 12px;
+}
+.title {
+  border-radius: 15vh;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 40%;
+  height: 21vh;
+  
+}
+.title1 {
+  border-radius: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+.info1 {
+  font-size: large;
+  font-weight: 500;
+  padding: 30px 20px;
+  color: black;
+}
+.row-left {
+  margin-left: 15px;
+  border-top-left-radius: 12vh;
+  border-bottom-left-radius: 12vh;
+}
+.row-right {
+  margin-right: 15px;
+  border-top-right-radius: 12vh;
+  border-bottom-right-radius: 12vh;
+}
+.row-left .info {
+  border-left: solid 1px #fff;
+  font-size: 2vh;
+}
+.row-right .info {
+  border-right: solid 1px #fff;
+  font-size: 2vh;
+}
+.row-right .title {
+  order: 2;
+}
+
+#first {
+  background-color: #f6f8f594;
+}
+
+#first .title {
+  background-color: #cdced1;
+}
+
+
+
+#second {
+  background-color: #f6f8f594;
+}
+
+#second .title1 {
+  background-color: #cdced1;
+}
+
+#third {
+  background-color: #f6f8f594;
+}
+#third .bullet {
+  color: #a9aef8;
+}
+#third .title {
+  background-color: #cdced1;
+}
+
+@keyframes changeCMSIcon {
+  0% {
+    content: "\f19a";
+  }
+  33% {
+    content: "\f1a9";
+  }
+  66% {
+    content: "\f1aa";
+  }
+}
+
+@keyframes changeMobileIcon {
+  0% {
+    content: "\f10b";
+  }
+  25% {
+    content: "\f17b";
+  }
+  50% {
+    content: "\f179";
+  }
+  75% {
+    content: "\f17a";
+  }
+}
+
+@keyframes changeSEOIcon {
+  0% {
+    content: "\f002";
+  }
+  33% {
+    content: "\f155";
+  }
+  66% {
+    content: "\f201";
+  }
+} 
+
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+
+.servicerhead{
+height: 300px;
+background-size: cover;
+}
+
+.service{
+  text-align: center;
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+
+
+.service-page{
+  margin-top: 5%;
+  background: url("https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/background.jpg");
+  background-size: cover;
+}
+.container {
+max-width: 1440px;
+margin:auto;
+}
+.service-page h1 {
+font-size: 30px;
+color: #4f4f4f;
+margin-bottom: 25px;
+margin-top: 0;
+}
+
+.service-page .page-header .container {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-column-gap: 30px;
+}
+
+
+
+.service-page .page-header {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.prehex {
+  right: 100px;
+width: 700px;
+height: 700px; 
+position: relative;
+padding: 20px;
+}
+
+.hex-shadow{
+filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.07));
+width:100%;
+height:100%;
+}
+#hex {
+height: 100%;
+width: 100%;
+overflow: hidden;
+-webkit-clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%);
+clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%);
+-moz-clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%);
+}
+
+.insider {
+
+height: 100%;
+background: #fff;
+font-size: 20px;
+padding: 25% 100px;   
+}
+
+.short{
+  height: 200px;
+}
+.goldhex {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+}
+
+
+@media (max-width: 1000px) {
+  .container {
+      padding: 10px;
+  }
+
+  .prehex {
+      max-width: 800px;
+  }
+
+  .insider {
+      padding: 15px;
+  }
+
+  .white {
+      padding: 8px 16px;
+  }
+  .goldhex{
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .prehex {
+      max-width: 200px;
+  }
+
+  .insider {
+      padding: 10px;
+  }
+
+  .white {
+      padding: 6px 12px;
+  }
+  
+}
+
+.border_end{
+  border-top: 5px solid navy;
+}
+
+.mainService{
+  width: 100%;
+  background: url('https://official-website-skilancersolar.s3.ap-south-1.amazonaws.com/Image/background.jpg');
+  background-size: cover;
+padding: 20px;
+
+}
+
+.cardbody{
+  margin: 20px;
+  height: 700px;
+width: 800px;
+border: 10px solid #4f4f4f;
+-webkit-clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%);
+clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%);
+-moz-clip-path: polygon(50% 1%, 95% 25%, 95% 75%, 50% 99%, 5% 75%, 5% 25%)
+
+}
+
+.content{
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  padding-right: 100px;
+  border: 2px solid black;
+  }

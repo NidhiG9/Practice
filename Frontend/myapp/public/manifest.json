@@ -1,0 +1,27 @@
+{
+  "short_name": "Skilancer Solar",
+  "name": "Skilancer Solar",
+  "description": "Skilancer solar pvt ltd",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icon.ico",
+      "sizes": "200x200",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "222x222"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "222x222"
+    }
+  ]
+}

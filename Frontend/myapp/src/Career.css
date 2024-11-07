@@ -1,0 +1,21 @@
+.imgcareer{
+    
+    background-size: cover;
+    height: 300px;
+    width: 101%;
+}
+.jobTitle{
+text-align: left;
+font-family: calibiri;
+font-size: larger
+
+}
+/* @media(max-width:576px) */
+   
+.links{
+    color: rgb(0, 145, 255);
+}
+.links:hover{
+    color: rgb(38, 0, 255);
+    text-decoration: underline;
+}
